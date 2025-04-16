@@ -121,7 +121,7 @@ keeper:
   localStorage:
     size: 5Gi
     storageClass: ""
-  nodeSelector: {}
+  nodeSelector: []
   tolerations: {}
   podAnnotations: {}
   # topologySpreadConstraints over `zone`, by deafult there is only
